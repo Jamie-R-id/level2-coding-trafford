@@ -1,0 +1,40 @@
+.middle{
+    text-align: center;
+}
+
+body {
+    color: red;
+    background-color: silver;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.left {
+    left: 0;
+    background-color: black;
+}
+
+
+.right {
+    right: 0;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+}
